@@ -45,7 +45,6 @@ body {
     display: flex;
     gap: 2.5rem;
     justify-content: space-around;
-    padding: 0 0.3rem;
   }
 
   ul li a {
@@ -57,11 +56,7 @@ body {
     background-color: var(--primary-color);
    text-decoration: underline;
   }
-   .navbar-flex a:hover {
-    cursor: pointer;
-    background: var(--primary-color);
-    padding: 0.5rem 0.8rem;
-  }
+   
 
   .hero {
     margin-top: 11rem;
@@ -75,6 +70,16 @@ body {
     width: 80%;
     text-align: center;
   }
+
+   .hero-title span { 
+    background-color: var(--primary-color);
+  }
+
+  .contact-hero-title span {
+    background-color: var(--primary-color);
+    color: #000;
+  }
+  
 
   .gallery .gallery-container {
     width: 95%;
